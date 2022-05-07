@@ -86,7 +86,7 @@ This ELK server is configured to monitor the following machines:
 -Web-1(10.0.0.8) Web-2 (10.0.0.10) Web-3 (10.0.0.9)
 
 We have installed the following Beats on these machines:
-- filebeat-metricbeat
+- install metricbeat-playbook.yml
 
 These Beats allow us to collect the following information from each machine:
 - Filebeat monitors log files or locations you specify, collects log events, then forwards to Elasticsearch or logstash for indexing. 
